@@ -1,0 +1,28 @@
+//Deleting a value from an index position in an array
+package arrays;
+import java.util.*;
+public class arraydelete
+{
+public static void main(String[] args)
+{
+Scanner sn=new Scanner(System.in);
+System.out.println("Enter the index position to be removed:");
+int index=sn.nextInt();
+int[] num={10,20,30,40,50,60,70}
+int[] arr=new int[num.length-1];//reducing the array length
+//removing the index position number from an existing array
+for(int i=0;i<num.length-1;i++)
+{
+if(i<index)
+{
+arr[i]=num[i];
+}
+else if(i>=index)
+{
+arr[i]=num[i+1];
+}
+}
+System.out.println(num);
+System.out.println(Arrays.toString(arr));
+}
+}
