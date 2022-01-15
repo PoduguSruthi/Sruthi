@@ -1,0 +1,30 @@
+\\Grade program
+
+package Student;
+
+import java.util.Scanner;
+public class StuGrade
+{
+public static void main(String[] args)
+{
+Scanner sn=new Scanner(System.in);
+char grade;
+System.out.println("Enter the grade");
+grade=sn.next().charAt(0);
+System.out.println(grade);
+if(grade=='E')
+{
+System.out.println("You have chosen:Excellent");
+if(grade=='V')
+System.out.println("You have chosen:Very Good");
+if(grade=='G')
+System.out.println("You have chosen:Good");
+if(grade=='A')
+System.out.println("You have chosen:Average");
+if(grade=='F')
+System.out.println("You have chosen:Fail");
+}
+else
+System.out.println("Invalid input:");
+}
+}

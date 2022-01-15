@@ -1,0 +1,33 @@
+\\Percentage of student
+package Studentdata;
+
+import java.io.*;
+public class Student
+{
+public class void main(String[] args)
+{
+int roll,phy,chem,comp;
+double tot,avg;
+String name;
+float percentage;
+Scanner sn=new Scanner(System.in);
+System.out.println("Roll num:");
+roll=sn.nextInt();
+System.out.println("Name of the student:");
+name=sn.nextLine();
+System.out.println("Marks in physics:");
+phy=sn.nextInt();
+System.out.println("Marks in chemistry:");
+chem=sn.nextInt();
+System.out.println("Marks in computer application:");
+comp=sn.nextInt();
+
+tot=phy+chem+comp;
+avg=(tot/5.0);
+percentage=(tot/300.0f)*100.0f;
+
+System.out.println("total marks:"+tot);
+System.out.println("Average:"+avg);
+System.out.println("The Percentage:"+percentage);
+}
+}

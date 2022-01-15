@@ -1,0 +1,16 @@
+\\Celsius temperature program
+ package temperature;
+ import java.util.Scanner;
+ public class Temp
+{
+public static void main (String[] args)
+{
+Scanner sn=new Scanner(System.in);
+float ftemp,c;
+System.out.println("Temperature in Fahrenheit:");
+ftemp=sn.nextFloat();
+c=(ftemp-32.0f)*5.0f/9.0f;
+System.out.println("Temp in celsius is:" +c);
+}
+}
+

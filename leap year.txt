@@ -1,0 +1,25 @@
+\\Leap year
+
+package control_stmt;
+
+import java.util.Scanner;
+public class Lyear
+{
+public static void main(String[] args)
+{
+int year;
+Scanner sn=new Scanner(System.in);
+year=sn.nextInt();
+
+if(year%400==0)
+{
+System.out.println("leap year");
+}
+else if(year%100==0)
+System.out.println("leap year");
+else if(year%4==0)
+System.out.println("leap year");
+else
+System.out.println("Not a leap year");
+}
+}
