@@ -1,0 +1,21 @@
+\\Add the elements of the integer array with size10
+
+package arrays;
+import java.util.*;
+public class arraysum
+{
+public static void main(String[] args)
+{
+Scanner sn=newScanner(System.in);
+int[] num=new int[10];
+int sum=0;
+System.out.println("Enter the array input:");
+for(int i=0;i<num.length;i++)
+{
+num[i]=sn.nextInt();
+sum=sum+num[i];
+}
+System.out.println("The sum of the array is :"+sum);
+}
+}
+
