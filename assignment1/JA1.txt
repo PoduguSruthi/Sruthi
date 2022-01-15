@@ -1,0 +1,11 @@
+public class Assign1
+{
+public static void main(String[] args)
+{
+String one="Hello";
+String two="Welcome";
+System.out.println(one);
+System.out.println(one+""+one);
+System.out.println(""+""+""+""+two+""+two);
+}
+}

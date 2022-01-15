@@ -1,0 +1,26 @@
+public class Account
+{
+float amount;
+public void deposit(float amt)
+{
+amount=amount+amt;
+}
+public void withdrawl(float amt)
+{
+amount=amount-amt;
+}
+public float bal()
+{
+return amount;
+}
+public static void main(String[] args)
+{
+Account account;
+account=new Account();
+System.out.println(account.bal());
+account.deposit(1500);
+System.out.println(account.bal());
+account.withdrawl(1000);
+System.out.println(account.bal());
+}
+}

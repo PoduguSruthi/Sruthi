@@ -1,0 +1,27 @@
+public class Employee
+{
+int empId;
+String empName;
+float empSal;
+String empDesg;
+}
+public void readData()
+{
+empId=1028;
+empName="Sruthi";
+empSal=30642.50f;
+empDesg="SOFTWARE DEVELOPER";
+}
+public void printData()
+{
+System.out.println(empId+""+empName+""+empSal+""+empDesg);
+}
+public static void main(String[] args)
+{
+Employee employee;
+employee=new Employee();
+employee.readData();
+employee.printData();
+}
+
+

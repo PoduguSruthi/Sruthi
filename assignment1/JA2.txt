@@ -1,0 +1,12 @@
+public class Assign2
+{
+public static void greet()
+{
+System.out.println("welcome to java programming");
+return;
+}
+public static void main(String[] args)
+{
+greet();
+}
+}

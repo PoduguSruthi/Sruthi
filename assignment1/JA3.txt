@@ -1,0 +1,14 @@
+public class Assign3
+{
+public static int addNum(int num1,int num2,int num3)
+{
+system.out.println("Addition program");
+int result=num1+num2+num3;
+return result;
+}
+public static void main(String[] args)
+{
+int result=addNum(5,2,3);
+System.out.println(result);
+}
+}
