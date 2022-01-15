@@ -1,4 +1,4 @@
-//Deleting a value from an index position in an array
+//Program to Deleting a value from an index position in an array
 package arrays;
 import java.util.*;
 public class arraydelete
