@@ -1,0 +1,13 @@
+\\Testing employee-department packages
+
+package main;
+
+import empPackage.Employee;
+public class TestEmpDeptPack
+{
+public static void main(String[] args)
+{
+Employee employee=new Employee(158,"Shruthi",56285.65f);
+System.out.println(employee);
+}
+}

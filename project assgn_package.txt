@@ -1,0 +1,33 @@
+\\Department project program using setters and getters
+package Deptpackage;
+
+public class Project
+{
+int pduration;
+String pName;
+
+public Project()
+{
+}
+public pduration(int pduration,String pName)
+{
+this.pduration=pduration;
+this.pName=pName;
+}
+public int getpduration()
+{
+return pduration;
+}
+public void setpduration(int pduration)
+{
+this.pduration=pduration;
+}
+public String pName()
+{
+return pName;
+}
+ public void setpName(String pName)
+{
+this.pName=pName;
+}
+}

@@ -1,0 +1,33 @@
+\\Manager program using setters and getters
+package empPackage;
+
+public class Manager
+{
+int managerid;
+int num_employees;
+
+public Manager()
+{
+}
+public Manager(int managerid,int num_employees)
+{
+this.managerid=managerid;
+this.num_employees=num_employees;
+}
+public int getmanagerid()
+{
+return managerid;
+}
+public void setmanagerid(int managerid)
+{
+this.managerid=managerid;
+}
+public int getnum_employees()
+{
+return num_employees;
+}
+ public void setnum_employees(int num_employees)
+{
+this.num_employees=num_employees;
+}
+}

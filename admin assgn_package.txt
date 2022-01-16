@@ -1,0 +1,33 @@
+\\Admin program using setters and getters
+package empPackage;
+
+public class Admin
+{
+int adminid;
+String adminName;
+
+public Admin()
+{
+}
+public Admin(int adminid,String adminName)
+{
+this.adminid=adminid;
+this.adminName=adminName;
+}
+public int getadminid()
+{
+return adminid;
+}
+public void setadminid(int adminid)
+{
+this.adminid=adminid;
+}
+public String adminName()
+{
+return adminName;
+}
+ public void setadminName(String adminName)
+{
+this.adminName=adminName;
+}
+}

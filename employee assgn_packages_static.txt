@@ -1,0 +1,44 @@
+\\employee program using setters and getters
+package empPackage;
+
+public class Employee
+{
+int empid;
+String empname;
+float sal;
+
+Employee()
+{
+}
+public Employee(int empid,String empname,float sal)
+{
+this.empid=empid;
+this.empname=empname;
+this.sal=sal;
+}
+public int getempid()
+{
+return empid;
+}
+public void setempid(int empid)
+{
+this.empid=empid;
+}
+public String getempname()
+{
+return empname;
+}
+ public void setempname(String empname)
+{
+this.empname=empname;
+}
+public float getsal()
+{
+return sal;
+}
+public void setsal(float sal)
+{
+this.sal=sal;
+}
+
+}

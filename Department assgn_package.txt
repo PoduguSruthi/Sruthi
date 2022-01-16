@@ -1,0 +1,33 @@
+\\Department program using setters and getters
+package Deptpackage;
+
+public class Dept
+{
+int deptid;
+String deptName;
+
+public Dept()
+{
+}
+public Dept(int deptid,String deptName)
+{
+this.deptid=deptid;
+this.deptName=deptName;
+}
+public int getdeptid()
+{
+return deptid;
+}
+public void setdeptid(int deptid)
+{
+this.deptid=deptid;
+}
+public String deptName()
+{
+return deptName;
+}
+ public void setdeptName(String deptName)
+{
+this.deptName=deptName;
+}
+}
