@@ -1,0 +1,24 @@
+// Parameterized Constructor
+ import java.io.*;
+ class Paracons
+{
+    String name;
+    int id;
+    Paracons(String name, int id)
+    {
+        this.name = name;
+        this.id = id;
+    }
+}
+class Sampleprg 
+{
+public static void main(String[] args)
+    {
+       Paracons paracons1 = new Paracons("shruthi", 8);
+        System.out.println("Name :" +paracons1.name
+                           + " and Id :" + paracons1.id);
+    }
+}
+
+output:
+ Name :shruthi and Id :8

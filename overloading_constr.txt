@@ -1,0 +1,38 @@
+//constructor overloading
+// using same task (addition operation ) for different
+// types of arguments.
+import java.io.*;
+class Sample
+{
+    Sample(String name)
+    {
+        System.out.println("Constructor with one " +
+                      "argument - String : " + name);
+    }
+    Sample(String name, int age)
+    {
+ 
+        System.out.println("Constructor with two arguments : " +
+                " String and Integer : " + name + " "+ age);
+       }
+ 
+    Sample(long id)
+    {
+        System.out.println("Constructor with one argument : " +
+                                            "Long : " + id);
+    }
+}
+ class overloading
+{
+    public static void main(String[] args)
+    {
+        Sample sample2 = new Sample("keerthi");
+        Sample sample3= new Sample("Sowjan", 35);
+        Sample sample4= new Sample(589741263);
+    }
+}
+
+Output:
+Constructor with one argument - String : keerthi
+Constructor with two arguments :  String and Integer : Sowjan 35
+Constructor with one argument : Long : 589741263

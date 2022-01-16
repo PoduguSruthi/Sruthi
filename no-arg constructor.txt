@@ -1,0 +1,25 @@
+//No- argument constructor
+import java.io.*;
+ class cons
+{
+    int num;
+    String name
+    Cons()
+    {
+        System.out.println("Constructor is called");
+    }
+}
+class sample
+{
+    public static void main (String[] args)
+    {
+        Cons cons1 = new Cons();
+        System.out.println(cons1.name);
+        System.out.println(cons1.num);
+    }
+}
+
+OUTPUT:
+Constructor is called
+null
+0
