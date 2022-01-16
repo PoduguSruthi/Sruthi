@@ -1,0 +1,30 @@
+\\Program to count positives,negatives and zeroes
+
+package loops;
+import java.util.Scanner;
+public class Countpgm
+{
+public static void main(Sring[] args)
+{
+int num,i,countp=0,countn=0,countz=0;
+char choice;
+Scanner sn=new Scanner(System.in);
+do
+{
+System.out.println("Enter the num:");
+num=sn.nextInt();
+if(num<0)
+countn++;
+else if(num>0)
+countp++;
+else
+countz++;
+System.out.println("Do you want to continue y/n?");
+choice=sn.next().charAt(0);
+}
+while(choice=='y'||choice=='Y');
+System.out.println("count of positive numbers:"+countp);
+System.out.println("count of negative numbers:"+countn);
+System.out.println("count of zeroes:"+countz);
+}
+}

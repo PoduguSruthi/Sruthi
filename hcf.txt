@@ -1,0 +1,21 @@
+\\HCF of two numbers
+package loops;
+import java.util.Scanner;
+public class Hcf
+{
+public static void main(String[] args)
+{
+int a,b,i,hcf=0;
+Scanner sn=new Scanner(System.in);
+System.out.println("Enter first number:");
+a=sn.nextInt();
+System.out.println("Enter second number:");
+b=sn.nextInt();
+for(i=0;i<=a||i<=b;i++)
+{
+if(a%i==0&&b%i==0)
+hcf=i;
+}
+System.out.println("The HCF of the number is:"+hcf);
+}
+}

@@ -1,0 +1,22 @@
+\\SUM of even_odd nums
+
+import java.util.Scanner;
+class Evenoddsum
+{
+public static void main(String[] args)
+{
+int i,num,evensum=0,oddsum=0;
+Scanner sn=new Scanner(System.in);
+System.out.println("Enter a number:");
+num=sn.nextInt();
+for(i=0;i<=num;i++)
+{
+if(i%2==0)
+evensum=evensum+i;
+else
+oddsum=oddsum+i;
+}
+System.out.println("The sum of all even nums are:"+evensum);
+System.out.println("The sum of all odd nums are:"+oddsum);
+}
+}
