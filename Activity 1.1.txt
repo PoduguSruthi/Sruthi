@@ -1,0 +1,28 @@
+//Hangman Game program
+
+package Game;
+ public class Hgame
+{
+public void playGame()
+{
+System.out.println("Game started");
+}
+public void viewInstructions()
+{
+System.out.println("Instructions are given below:");
+}
+}
+
+Program2:
+
+//Test Hangman Game program
+ package Game;
+public class TestHgame
+{
+public static void main(String[] args)
+{
+Hgame hgame=new Hgame();
+hgame.playGame();
+hgame.viewInstructions();
+}
+}
