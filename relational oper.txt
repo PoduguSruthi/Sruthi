@@ -1,0 +1,20 @@
+//Relational operator
+package operator;
+public class rel_oper
+{
+public static void main(String[] args)
+{
+int a=1000,b=500;
+
+System.out.println("NUM1: "+a);
+System.out.println("NUM2: "+b);
+System.out.println(a>b);
+System.out.println(a<b);
+System.out.println(a==b);
+System.out.println(a!=b);
+System.out.println(a>=b);
+System.out.println(a<=b);
+
+}
+}
+

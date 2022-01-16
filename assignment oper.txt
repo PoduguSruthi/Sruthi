@@ -1,0 +1,22 @@
+//Assignment operator uses
+package operator;
+public class assign_oper
+{
+public static void main(String[] args)
+{
+int num=10,a=8;
+
+System.out.println("The value is:"+a);
+num+=a;
+System.out.println("Addition is: "+num);
+num-=a;
+System.out.println("Subtraction is: "+num);
+num/=a;
+System.out.println("Division is: "+num);
+num*=a;
+System.out.println("Multiplication is: "+num);
+num%=a;
+System.out.println("Modulus is: "+num);
+}
+}
+

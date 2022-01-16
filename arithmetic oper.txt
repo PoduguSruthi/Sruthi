@@ -1,0 +1,20 @@
+//Arithmetic operator
+package operator;
+public class Arithmetic
+{
+public static void main(String[] args)
+{
+int num=500;
+a=num+100;
+System.out.println("Addition is: "+a);
+b=num-100;
+System.out.println("Subtraction is: "+b);
+c=num/100;
+System.out.println("Division is: "+c);
+d=num*5;
+System.out.println("Multiplication is: "+d);
+e=num%10;
+System.out.println("Modulus is: "+e);
+}
+}
+

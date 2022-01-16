@@ -1,0 +1,19 @@
+package operator;
+public class logical_oper
+{
+public static void main(String[] args)
+{
+int a=350,b=500;
+
+System.out.println("NUM1: "+a);
+System.out.println("NUM2: "+b);
+boolean value=a>300&&b<50;
+System.out.println(value);
+boolean value=a>300||b<50;
+System.out.println(value);
+boolean value=(!(a>200&&b>100));
+System.out.println(value);
+
+}
+}
+

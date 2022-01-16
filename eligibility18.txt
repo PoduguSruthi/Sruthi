@@ -1,0 +1,13 @@
+//Ternary operator
+package operator
+
+public class eligible
+{
+public static void main(String[] args)
+{
+int age=17;
+String msg=age>18?"ELIGIBLE": "Not eligible";
+
+System.out.println(msg);
+}
+}

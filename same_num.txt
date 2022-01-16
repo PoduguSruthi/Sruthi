@@ -1,0 +1,12 @@
+//Program to check whether both nums are same
+package operator
+
+public class same_num
+{
+public static void main(String[] args)
+{
+int num1=10,num2=8;
+String msg=(num1==num2? "Same": "Not same");
+System.out.println(msg);
+}
+}

@@ -1,0 +1,13 @@
+//Ternary operator for even/odd
+package operator
+
+public class even_odd
+{
+public static void main(String[] args)
+{
+int num=17;
+String msg=(num%2==0? "EVEN": "ODD");
+
+System.out.println(msg);
+}
+}

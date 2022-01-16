@@ -1,0 +1,20 @@
+//Arithmetic assignment operator
+package operator;
+public class Arithmetic_assign
+{
+public static void main(String[] args)
+{
+int num=1000;
+num+=100;
+System.out.println("Addition is: "+num);
+num-=500;
+System.out.println("Subtraction is: "+num);
+num/=100;
+System.out.println("Division is: "+num);
+num*=10;
+System.out.println("Multiplication is: "+num);
+num%=100;
+System.out.println("Modulus is: "+num);
+}
+}
+
