@@ -1,0 +1,25 @@
+\\program4 to print stars
+
+package nestedloops;
+import java.util.Scanner;
+public class pyramid
+{
+public static void main(String[] args)
+{
+int x=1,i,j,k;
+System.out.println("The pyramid pattern is:");
+for(i=0;i<5;i++)
+{
+for(j=0;j<5-i;j++)
+{
+System.out.print(" ");
+}
+for(k=0;k<x;k++)
+{
+System.out.print("*");
+}
+x=x+2;
+System.out.println();
+}
+}
+}

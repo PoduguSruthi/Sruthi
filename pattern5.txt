@@ -1,0 +1,25 @@
+\\program5 to print stars
+
+package nestedloops;
+import java.util.Scanner;
+public class pattern
+{
+public static void main(String[] args)
+{
+int i,j,k;
+System.out.println("The pattern is:");
+for(i=0;i<5;i++)//row
+{
+for(j=0;j<5-i;j++)//printing space
+{
+System.out.print(" ");
+}
+for(k=0;k<=i;k++)//printing star
+{
+System.out.print("*");
+}
+System.out.println();
+}
+}
+}
+
