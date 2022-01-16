@@ -1,0 +1,21 @@
+\\Working with operators
+
+import java.util.Scanner;
+
+public class salpay
+{
+public static void main(String[] args)
+{
+Scanner sn=new Scanner(System.in);
+float sal,hra,allowance,pf;
+sal=scan.nextFloat();
+hra=(50.0f/100.0f)*sal;
+System.out.println(hra);
+allowance=(75.0f/100.0f)*sal;
+System.out.println(allowance);
+pf=(12.0f/100.0f)*sal;
+System.out.println(pf);
+float netpay=(hra+allowance)-pf;
+System.out.println(netpay);
+}
+}
