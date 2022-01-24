@@ -1,0 +1,27 @@
+package Strings;
+
+import java.util.Scanner;
+ public class LongShortLong
+{
+public static void main(String[] args)
+{
+String s1="Welcome";
+String s2="Hello";
+System.out.println(capsStart(s1,s2));
+}
+public static String capsStart(String s1,String s2)
+{
+StringBuffer s6=new StringBuffer();
+int a=s1.length();
+int b=s2.length();
+if(a>b)
+{
+s6.append(s1).append(s2).append(s1);
+}
+else
+{
+s6.append(s2).appeend(s1).append(s2);
+}
+return s6.toString();
+}
+}

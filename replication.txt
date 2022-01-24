@@ -1,0 +1,26 @@
+package Strings;
+
+import java.util.Scanner;
+
+public class Replic
+{
+public static String repeatString(String msg2,int b)
+{
+StringBuffer sb=new StringBuffer();
+for(int i=1;i<=b;i++)
+{
+sb.append(msg2+"\n");
+}
+return sb.toString();
+}
+public static void main(String[] args)
+{
+Scanner sn=new Scanner(System.in);
+String msg1;
+System.out.println("Enter the String and num of times to be repeated:");
+msg1=sn.next();
+int n=sn.nextInt();
+Replic obj=new Replic();
+System.out.println(obj.repeatString(msg1,n));
+}
+}
